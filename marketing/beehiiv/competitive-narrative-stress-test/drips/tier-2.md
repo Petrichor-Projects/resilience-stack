@@ -20,7 +20,7 @@ Two things:
 
 **1. Watch the Loom — {{loom-url}}.** Six minutes. Tessera worked example. Tier 2 going in. Attack surface scorecard 13/25. Win rate 52→31% across two quarters. Outcome claim folklore. The Loom walks the reconstruction, the leadership conversations it required, and the artifact.
 
-**2. Run the kit — [competitive-narrative-stress-test kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/positioning/competitive-narrative-stress-test).** 3-hour session. Bring CEO, head of sales, head of product. The scorecard at the end gives you a number per surface (0–5) and a total (0–25). Two things to look for: which surface scored worst, and which surfaces scored worst together. The clusters tell you whether the cracking is at the proof layer (surfaces 3, 4, 5), the discipline layer (surfaces 2, 5), or the positioning layer (surfaces 1, 8 from the audit segments).
+**2. Run the kit — [competitive-narrative-stress-test kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/positioning/competitive-narrative-stress-test).** 3-hour session. Bring CEO, head of sales, head of product. The scorecard at the end gives you a number per surface (0–5) and a total (0–25). Two things to look for: which surface scored worst, and which surfaces scored worst together. The clusters tell you whether the cracking is at the proof layer (surfaces 3, 4, 5), the discipline layer (surfaces 2, 5), or the positioning layer (surfaces 1, 8 from the audit segments).
 
 Calendar — {{calendly-url}}. 30 minutes, no pitch.
 
@@ -179,7 +179,7 @@ The call ends with one of three answers (internal reconstruction / Petrichor eng
 
 Calendar: {{calendly-url}}. 30 minutes.
 
-If you do not book, that is fine. Stay on the Category Gravity list. Next thing worth your inbox when I have one. Resilience Stack repo: [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack).
+If you do not book, that is fine. Stay on the Category Gravity list. Next thing worth your inbox when I have one. Resilience Stack repo: [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack).
 
 — Phil
 Petrichor Projects · [petrichorgrowth.com](https://petrichorgrowth.com)

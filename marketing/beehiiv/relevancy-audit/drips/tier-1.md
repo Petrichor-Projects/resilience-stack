@@ -16,7 +16,7 @@ Hi {{first_name}},
 
 Your Stage 1 score was the cheapest possible signal: one or two of the five indicators slipped in the last two quarters. Caught at this stage, the fix is internal. A 2.5-hour audit and a positioning refresh. No re-platforming. No agency. No re-launch.
 
-The kit is here — [relevancy-audit kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/positioning/relevancy-audit). Open it on a Monday. Run the audit before Friday. The week ends with a positioning brief you can ship.
+The kit is here — [relevancy-audit kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/positioning/relevancy-audit). Open it on a Monday. Run the audit before Friday. The week ends with a positioning brief you can ship.
 
 The 9 segments, in order:
 
@@ -149,7 +149,7 @@ New round closed, new launch shipped, new category challenger emerged, leadershi
 
 Reply to this email if any of those fire. I read every reply. If Petrichor is the right shape, we will talk. If it is not, I will tell you what shape would be.
 
-If none fire, you do not need to hear from me. Resilience Stack repo gets updated as the methodology evolves — [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack). Star it for release notes.
+If none fire, you do not need to hear from me. Resilience Stack repo gets updated as the methodology evolves — [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack). Star it for release notes.
 
 That's the welcome arc.
 

@@ -49,7 +49,7 @@ Drift is the most dangerous stage because it does not feel like a problem. You c
 **Definition.** The framework now actively misrepresents the market. Decisions made from it produce outcomes the framework did not predict. Internal alignment around the framework is becoming the thing that prevents you from seeing the gap.
 
 **Measurable signals of Disconnect:**
-- Of the top 12 verbatim terms buyers use, 5–8 do not appear in your positioning. ([Anonymized Petrichor case study, 2025: a Series B fintech had this exact gap — twelve buyer terms, zero matches.](https://github.com/petrichorprojects/resilience-stack))
+- Of the top 12 verbatim terms buyers use, 5–8 do not appear in your positioning. ([Anonymized Petrichor case study, 2025: a Series B fintech had this exact gap — twelve buyer terms, zero matches.](https://github.com/Petrichor-Projects/resilience-stack))
 - Sales is regularly winning deals "off-script" — the deals you close no longer match the playbook you have written down.
 - Your pricing page generates objections your pricing rationale was specifically designed to neutralize.
 - New hires read your strategy doc and quietly ignore it within 60 days.
@@ -110,7 +110,7 @@ This is why Petrichor's flagship engagements are priced as systems, not as artif
 
 ## 6. The Resilience Stack as the operational answer
 
-The Resilience Stack ([github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack)) is the open-source operationalization of this thesis. It is 18 diagnostic skills, each one a decay-resistant framework with built-in refresh triggers, packaged in a format that runs inside any modern AI assistant — Anthropic's Skills format, Google's SkillOS, or as raw markdown inside any LLM agent.
+The Resilience Stack ([github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack)) is the open-source operationalization of this thesis. It is 18 diagnostic skills, each one a decay-resistant framework with built-in refresh triggers, packaged in a format that runs inside any modern AI assistant — Anthropic's Skills format, Google's SkillOS, or as raw markdown inside any LLM agent.
 
 The format matters. Anthropic Skills and Google SkillOS both ratified the same insight in 2025: strategic work decomposes into reusable, composable, model-portable diagnostic units. A skill is the smallest atomic frame of strategic capability — a single repeatable diagnostic that produces a structured artifact. This is the right unit of abstraction because it is small enough to instrument, version, and refresh, and big enough to produce meaningful output on its own.
 
@@ -128,7 +128,7 @@ We open-sourced the stack because reputation engineering is a network effect. Th
 
 ## 7. Call to action
 
-If anything in this essay made you uncomfortable about a specific framework you currently rely on — a positioning doc, an ICP definition, a category narrative, a pricing rationale — start with the relevancy-audit skill at [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack). It will take you through the Drift → Disconnect → Displacement diagnostic for one strategic artifact and produce a 90-day refresh roadmap. It is free. It runs in any modern AI assistant. The discomfort is the point.
+If anything in this essay made you uncomfortable about a specific framework you currently rely on — a positioning doc, an ICP definition, a category narrative, a pricing rationale — start with the relevancy-audit skill at [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack). It will take you through the Drift → Disconnect → Displacement diagnostic for one strategic artifact and produce a 90-day refresh roadmap. It is free. It runs in any modern AI assistant. The discomfort is the point.
 
 The frameworks you trust the most are the ones that have been decaying the longest without anyone in the room willing to say so. Run the diagnostic. See what stage you are in. Refresh on schedule, or be refreshed by the market.
 

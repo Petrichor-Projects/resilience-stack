@@ -22,7 +22,7 @@ This is the failure mode the foundational thesis of the Resilience Stack — `do
 
 ## The framework — the Forensic Diligence Stack
 
-The Investor Story Forensics kit ([skills/investor/investor-story-forensics](https://github.com/petrichorprojects/resilience-stack)) is built on five load-bearing protocols that run in sequence. Each one closes a specific gap between the pitched narrative and the auditable narrative.
+The Investor Story Forensics kit ([skills/investor/investor-story-forensics](https://github.com/Petrichor-Projects/resilience-stack)) is built on five load-bearing protocols that run in sequence. Each one closes a specific gap between the pitched narrative and the auditable narrative.
 
 **Narrative Due Diligence Protocol.** Walk every load-bearing claim in the investor deck back to its trailing-four-quarter source. Score each claim against a 0-3 Claim-Evidence rubric — 0 means no trailing evidence, 1 means anecdotal, 2 means one verifiable source, 3 means multi-source defensible. A composite Narrative Integrity score of 30 lands between 0 (every claim is folklore) and 30 (every claim survives forensic examination). Most decks the kit is run against score between 12 and 18 on first pass. Vulnerable. Cracking.
 
@@ -79,7 +79,7 @@ The honesty matters. A framework that pretends to apply universally is one you c
 
 ## Run the diagnostic
 
-If anything in this essay described a pattern you have been watching without naming — the NRR slide that has not been reconciled with the trailing number, the reference customers nobody has called in a quarter, the bear case sitting half-written in a Notion page nobody has opened — the next move is the Investor Story Forensics skill in the Resilience Stack repo: [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack) — `skills/investor/investor-story-forensics`. Five-question quiz returns your tier assessment and top three actions. The Loom walkthrough shows the full forensic audit in five minutes. This is Kit 5 of the Resilience Stack v1.5 release — the final kit. The full v1.5 is live.
+If anything in this essay described a pattern you have been watching without naming — the NRR slide that has not been reconciled with the trailing number, the reference customers nobody has called in a quarter, the bear case sitting half-written in a Notion page nobody has opened — the next move is the Investor Story Forensics skill in the Resilience Stack repo: [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack) — `skills/investor/investor-story-forensics`. Five-question quiz returns your tier assessment and top three actions. The Loom walkthrough shows the full forensic audit in five minutes. This is Kit 5 of the Resilience Stack v1.5 release — the final kit. The full v1.5 is live.
 
 *— Phil, Petrichor Projects*
 

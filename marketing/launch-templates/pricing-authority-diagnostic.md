@@ -46,7 +46,7 @@ Score: 18/30 — Eroding (target 24/30). 90-day plan: tiered usage-based metric 
 5 questions, 90 seconds. Returns your Pricing Authority tier + top 3 reconstruction actions for the next 90 days. {{tally-url}}
 
 **Tweet 12 (kit + repo CTA)**
-Full skill — pricing-authority-diagnostic — in the Resilience Stack repo. CC BY 4.0. Runs in any modern AI. github.com/petrichorprojects/resilience-stack. Bookmark this if you haven't raised prices in 18+ months and your discount curve is climbing.
+Full skill — pricing-authority-diagnostic — in the Resilience Stack repo. CC BY 4.0. Runs in any modern AI. github.com/Petrichor-Projects/resilience-stack. Bookmark this if you haven't raised prices in 18+ months and your discount curve is climbing.
 
 ---
 
@@ -116,7 +116,7 @@ Pre-product-market-fit companies — pricing experimentation, not audit. Regulat
 
 **The kit, the quiz, the essay**
 
-The full Pricing Authority Diagnostic skill is in the open-source Resilience Stack repo at github.com/petrichorprojects/resilience-stack under skills/growth/pricing-authority-diagnostic. CC BY 4.0. Runs in any modern AI assistant.
+The full Pricing Authority Diagnostic skill is in the open-source Resilience Stack repo at github.com/Petrichor-Projects/resilience-stack under skills/growth/pricing-authority-diagnostic. CC BY 4.0. Runs in any modern AI assistant.
 
 5-question quiz returns your tier and top 3 architectural actions: {{tally-url}}
 
@@ -141,7 +141,7 @@ The buyers were not tighter this year. The reps were.
 The canonical artifact lives in the repo at `marketing/essays/pricing-authority-diagnostic.md`. Substack and LinkedIn versions carry rel-canonical pointing back to petrichorgrowth.com/blog/pricing-authority-diagnostic so search consolidates on the Petrichor site.
 
 **Footer:**
-*— Phil, Petrichor Projects · Resilience Stack v1.5 · CC BY 4.0 · [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack) · Kit path: skills/growth/pricing-authority-diagnostic · Quiz: {{tally-url}}*
+*— Phil, Petrichor Projects · Resilience Stack v1.5 · CC BY 4.0 · [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack) · Kit path: skills/growth/pricing-authority-diagnostic · Quiz: {{tally-url}}*
 
 ---
 

@@ -1,6 +1,6 @@
 # Public Launch Checklist — Resilience Stack
 
-Run top-to-bottom before flipping `petrichorprojects/resilience-stack` from private to public.
+Run top-to-bottom before flipping `Petrichor-Projects/resilience-stack` from private to public.
 
 ---
 
@@ -125,7 +125,7 @@ git check-ignore .claude/ docs/.claude/
 
 ## §7 — Flip to Public
 
-- [ ] Final review of repo at `https://github.com/petrichorprojects/resilience-stack/settings`
+- [ ] Final review of repo at `https://github.com/Petrichor-Projects/resilience-stack/settings`
 - [ ] Settings → Danger Zone → Change visibility → Public
 - [ ] Wait 24 hours, monitor:
   - Secret scanning alerts (should be 0)

@@ -16,7 +16,7 @@ Hi {{first_name}},
 
 Tier 1 Fragile is the cheapest stage to harden. One or two attack surfaces have started cracking. The pattern is not yet visible in the boardroom — win rate is wobbling, sales has stopped reading competitor decks in full, the outcome number on slide 12 has lost its methodology trail. You have 60–90 days to reset before the next analyst cycle or fundraise window calibrates the standard.
 
-The kit — [competitive-narrative-stress-test kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/positioning/competitive-narrative-stress-test). Block 2.5 hours. Bring CEO, head of sales, head of product. The stress test does not work without all three because the cracks at Tier 1 usually live between functional views of the same competitive position.
+The kit — [competitive-narrative-stress-test kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/positioning/competitive-narrative-stress-test). Block 2.5 hours. Bring CEO, head of sales, head of product. The stress test does not work without all three because the cracks at Tier 1 usually live between functional views of the same competitive position.
 
 The 9 segments, in order:
 

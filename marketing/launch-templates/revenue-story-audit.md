@@ -43,7 +43,7 @@ Two-version reconciliation closed the gap. Externally-Defensible deck shipped wi
 5 questions, 90 seconds. Returns your revenue-story tier assessment + top 3 reconciliation actions for the next 30 days. {{tally-url}}
 
 **Tweet 11 (kit + repo CTA)**
-The full skill — revenue-story-audit — is in the Resilience Stack repo. CC BY 4.0. Runs in any modern AI assistant. github.com/petrichorprojects/resilience-stack — skills/growth/revenue-story-audit
+The full skill — revenue-story-audit — is in the Resilience Stack repo. CC BY 4.0. Runs in any modern AI assistant. github.com/Petrichor-Projects/resilience-stack — skills/growth/revenue-story-audit
 
 **Tweet 12 (close)**
 Bookmark this if you are 6-12 months from a raise and the trailing numbers have started diverging from the deck. The fix isn't a CFO swap. It isn't prettier charts. It's a reconciliation that produces two versions of the same story — honest and survivable.
@@ -120,7 +120,7 @@ Pre-revenue companies — no story-vs-mechanics gap yet. Without 4-quarter segme
 
 **The kit, the quiz, the essay**
 
-The full Revenue Story Audit skill is in the open-source Resilience Stack repo at github.com/petrichorprojects/resilience-stack under skills/growth/revenue-story-audit. CC BY 4.0. Runs in any modern AI assistant.
+The full Revenue Story Audit skill is in the open-source Resilience Stack repo at github.com/Petrichor-Projects/resilience-stack under skills/growth/revenue-story-audit. CC BY 4.0. Runs in any modern AI assistant.
 
 5-question quiz returns your tier assessment and top 3 reconciliation actions: {{tally-url}}
 
@@ -145,7 +145,7 @@ That gap — the gap between the number on the slide and the number in the data 
 The canonical artifact lives in the repo at `marketing/essays/revenue-story-audit.md`. Substack and LinkedIn versions carry rel-canonical pointing back to petrichorgrowth.com/blog/revenue-story-audit so search consolidates on the Petrichor site.
 
 **Footer:**
-*— Phil, Petrichor Projects · Resilience Stack v1.5 · CC BY 4.0 · [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack) · Kit path: skills/growth/revenue-story-audit · Quiz: {{tally-url}}*
+*— Phil, Petrichor Projects · Resilience Stack v1.5 · CC BY 4.0 · [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack) · Kit path: skills/growth/revenue-story-audit · Quiz: {{tally-url}}*
 
 ---
 

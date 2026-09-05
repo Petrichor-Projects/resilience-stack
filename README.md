@@ -17,7 +17,7 @@ npx resilience-stack add positioning-under-pressure
 Or clone the whole stack:
 
 ```bash
-git clone https://github.com/petrichorprojects/resilience-stack ~/.claude/skills/resilience-stack
+git clone https://github.com/Petrichor-Projects/resilience-stack ~/.claude/skills/resilience-stack
 ```
 
 Skills run inside [Claude Code](https://claude.com/claude-code) or the [Claude Agent SDK](https://docs.claude.com). Bring your own API key — nothing phones home.

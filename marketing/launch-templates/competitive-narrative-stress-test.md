@@ -46,7 +46,7 @@ Six weeks after rebuild shipped, win rate vs NewEntrant started reversing. By Se
 5 questions, 90 seconds. Returns your Attack Surface tier assessment + top 3 reconstruction actions for the next 30 days. {{tally-url}}
 
 **Tweet 12 (kit + repo CTA)**
-Full skill — competitive-narrative-stress-test — in the Resilience Stack repo. CC BY 4.0. Runs in any modern AI. github.com/petrichorprojects/resilience-stack. Bookmark if you're 6-12mo from a raise and win rate is sliding against a single competitor.
+Full skill — competitive-narrative-stress-test — in the Resilience Stack repo. CC BY 4.0. Runs in any modern AI. github.com/Petrichor-Projects/resilience-stack. Bookmark if you're 6-12mo from a raise and win rate is sliding against a single competitor.
 
 ---
 
@@ -110,7 +110,7 @@ Pre-PMF companies with no real competitors — use `customer-truth-extraction` i
 
 **The kit, the quiz, the essay**
 
-The full Competitive Narrative Stress Test skill is in the open-source Resilience Stack repo at github.com/petrichorprojects/resilience-stack under skills/positioning/competitive-narrative-stress-test. CC BY 4.0. Runs in any modern AI assistant.
+The full Competitive Narrative Stress Test skill is in the open-source Resilience Stack repo at github.com/Petrichor-Projects/resilience-stack under skills/positioning/competitive-narrative-stress-test. CC BY 4.0. Runs in any modern AI assistant.
 
 5-question quiz returns your Attack Surface tier assessment and top 3 reconstruction actions: {{tally-url}}
 
@@ -135,7 +135,7 @@ Three board members independently asked the same question inside that meeting. N
 The canonical artifact lives in the repo at `marketing/essays/competitive-narrative-stress-test.md`. Substack and LinkedIn versions carry rel-canonical pointing back to petrichorgrowth.com/blog/competitive-narrative-stress-test so search consolidates on the Petrichor site.
 
 **Footer:**
-*— Phil, Petrichor Projects · Resilience Stack v1.5 · CC BY 4.0 · [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack) · Kit path: skills/positioning/competitive-narrative-stress-test · Quiz: {{tally-url}}*
+*— Phil, Petrichor Projects · Resilience Stack v1.5 · CC BY 4.0 · [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack) · Kit path: skills/positioning/competitive-narrative-stress-test · Quiz: {{tally-url}}*
 
 ---
 

@@ -22,7 +22,7 @@ This is the failure mode the foundational thesis of the Resilience Stack — `do
 
 ## The framework — the Relevancy Decay Model
 
-The Relevancy Audit skill ([skills/positioning/relevancy-audit](https://github.com/petrichorprojects/resilience-stack)) is built on a three-stage decay model — Drift, Disconnect, Displacement — with measurable thresholds for each stage. The diagnostic is not a vibe check. Each stage has signals you can read off four quarters of pipeline data, win/loss reviews, and one round of buyer interviews.
+The Relevancy Audit skill ([skills/positioning/relevancy-audit](https://github.com/Petrichor-Projects/resilience-stack)) is built on a three-stage decay model — Drift, Disconnect, Displacement — with measurable thresholds for each stage. The diagnostic is not a vibe check. Each stage has signals you can read off four quarters of pipeline data, win/loss reviews, and one round of buyer interviews.
 
 **Stage 1 — Drift.** The framework still mostly works, but the world has moved 5–15% off the assumptions baked into it. Measurable signal: win rate down 10–20% year-over-year, no single deal explains why; 2–4 of the top 12 buyer-verbatim terms do not appear in your positioning; the competitive set in your internal battlecards differs from the competitive set named in 50%+ of recent lost-deal reviews. Drift is dangerous precisely because it does not feel like a problem.
 
@@ -78,7 +78,7 @@ The honesty matters. A framework that pretends to apply universally is a framewo
 
 ## Run the diagnostic
 
-If anything in this essay described a pattern you have been watching for two quarters without naming, the next move is the Relevancy Audit skill in the Resilience Stack repo: [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack) — `skills/positioning/relevancy-audit`. Five-question quiz returns your stage assessment and top 3 actions. The Loom walkthrough shows the full audit in 12 minutes. Next week's kit: `revenue-story-audit` — what happens to your revenue narrative when positioning decays underneath it.
+If anything in this essay described a pattern you have been watching for two quarters without naming, the next move is the Relevancy Audit skill in the Resilience Stack repo: [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack) — `skills/positioning/relevancy-audit`. Five-question quiz returns your stage assessment and top 3 actions. The Loom walkthrough shows the full audit in 12 minutes. Next week's kit: `revenue-story-audit` — what happens to your revenue narrative when positioning decays underneath it.
 
 *— Phil, Petrichor Projects*
 

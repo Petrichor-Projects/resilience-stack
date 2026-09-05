@@ -131,7 +131,7 @@ If neither trigger fires for the next 12 months, you do not need to talk to Petr
 
 If a trigger fires, reply to this email. I read every reply. If a Petrichor audit is the right shape for what you are facing, we will talk. If it is not, you will hear that instead.
 
-Resilience Stack is open source under CC BY 4.0. The kit at [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/positioning/relevancy-audit) gets updated as the market does. Star the repo to get release notifications.
+Resilience Stack is open source under CC BY 4.0. The kit at [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/positioning/relevancy-audit) gets updated as the market does. Star the repo to get release notifications.
 
 That's it for the welcome sequence. You will hear from me again only when I have something specific worth your inbox.
 

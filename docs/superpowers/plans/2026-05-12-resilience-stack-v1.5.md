@@ -295,7 +295,7 @@ Pre-req: GitHub org `petrichorprojects` exists, repo `resilience-stack` created.
 
 ```bash
 cd /Users/philipprimmler/Downloads/Projects/resilience-stack
-git remote add origin git@github.com:petrichorprojects/resilience-stack.git
+git remote add origin git@github.com:Petrichor-Projects/resilience-stack.git
 git push -u origin spec-v1.5-design
 # Merge spec-v1.5-design into main via PR
 ```

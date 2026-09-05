@@ -23,8 +23,8 @@ You do not have a pricing-authority problem right now. You have a maintenance pr
 
 Two things:
 
-1. Read the [manifesto](https://github.com/petrichorprojects/resilience-stack/blob/main/docs/manifesto.md) — 20 minutes on why pricing authority decays even when revenue is fine.
-2. Bookmark the kit — [pricing-authority-diagnostic kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic). Run the Discount Trend Audit and the 60-Second Value Metric Test as a 45-minute quarterly self-check.
+1. Read the [manifesto](https://github.com/Petrichor-Projects/resilience-stack/blob/main/docs/manifesto.md) — 20 minutes on why pricing authority decays even when revenue is fine.
+2. Bookmark the kit — [pricing-authority-diagnostic kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic). Run the Discount Trend Audit and the 60-Second Value Metric Test as a 45-minute quarterly self-check.
 
 No call. Five emails over the next two weeks on holding pricing authority before the next renewal cycle.
 
@@ -45,9 +45,9 @@ The pattern is not yet visible in the deck. This is the cheapest stage to reset 
 
 Three things:
 
-1. Download the kit — [pricing-authority-diagnostic kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic). Block 2.5 hours. Bring 4 quarters of deal-level discount data. Bring sales leadership.
+1. Download the kit — [pricing-authority-diagnostic kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic). Block 2.5 hours. Bring 4 quarters of deal-level discount data. Bring sales leadership.
 2. Re-test the same five questions 30 days after the reset. Two scores improved = you caught it. Not = escalate.
-3. Read the [manifesto](https://github.com/petrichorprojects/resilience-stack/blob/main/docs/manifesto.md).
+3. Read the [manifesto](https://github.com/Petrichor-Projects/resilience-stack/blob/main/docs/manifesto.md).
 
 Five emails over the next two weeks walking through the discount diagnostics plus the Helix case study showing how Tier 1 erosion gets reversed in 90 days.
 
@@ -70,7 +70,7 @@ At Tier 2, a kit alone is rarely enough. The audit will name the integrity break
 
 Two things:
 
-1. Download and run the diagnostic — [pricing-authority-diagnostic kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic). The scorecard tells you which of the 5 integrity points are most broken.
+1. Download and run the diagnostic — [pricing-authority-diagnostic kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic). The scorecard tells you which of the 5 integrity points are most broken.
 2. Watch the 6-minute Loom — {{loom-url}}. The Helix walkthrough — healthcare scheduling SaaS, $28M ARR, discount climb 8→21%, NRR 108→96%, 18/30 Eroding. Watch before anything else.
 
 Calendar if you want to talk — {{calendly-url}}.
@@ -96,7 +96,7 @@ One thing:
 
 The 6-minute Loom walking the Helix case is here — {{loom-url}}. Watch before we talk.
 
-You can download the kit — [pricing-authority-diagnostic kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic) — for the same diagnostic vocabulary. The kit is not the path out of Tier 3. The path out is the engagement.
+You can download the kit — [pricing-authority-diagnostic kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic) — for the same diagnostic vocabulary. The kit is not the path out of Tier 3. The path out is the engagement.
 
 Phil
 Petrichor Projects · [petrichorgrowth.com](https://petrichorgrowth.com)

@@ -148,7 +148,7 @@ One surface moving is noise. Two moving in the same direction inside one quarter
 
 The Gartner / Forrester / niche analyst briefing. The Series B raise. The category-defining product launch by a competitor. The leadership presentation to the board on competitive position. The acquisition inbound that hinges on narrative defensibility. Any of these resets the standard the narrative has to clear. The standard a quiet quarter requires is not the standard a partner meeting requires.
 
-If neither fires, you do not need to talk to me. Keep running the quarterly self-check. The kit at [github.com/petrichorprojects/resilience-stack/tree/main/skills/positioning/competitive-narrative-stress-test](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/positioning/competitive-narrative-stress-test) is the asset.
+If neither fires, you do not need to talk to me. Keep running the quarterly self-check. The kit at [github.com/Petrichor-Projects/resilience-stack/tree/main/skills/positioning/competitive-narrative-stress-test](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/positioning/competitive-narrative-stress-test) is the asset.
 
 If a trigger fires, reply to this email or book — {{calendly-url}}. The call ends with one of three answers (run the stress test internally / Petrichor engagement / different team).
 
