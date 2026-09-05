@@ -138,7 +138,7 @@ One mechanic moving is noise. Two moving inside one quarter is a pattern. The se
 
 The board reset, the secondary, the Series B or C, the strategic round, the partial-exit conversation, the acquisition inbound that became real. Any of these resets the standard the narrative has to clear. The standard a quiet quarter requires is not the standard a partner meeting requires. The full audit calibrates the narrative against the harder standard before someone external calibrates it for you.
 
-If neither fires, you do not need to talk to me. Run the quarterly self-check. Use the kit at [github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/revenue-story-audit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/revenue-story-audit) when you want to ladder up.
+If neither fires, you do not need to talk to me. Run the quarterly self-check. Use the kit at [github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/revenue-story-audit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/revenue-story-audit) when you want to ladder up.
 
 If a trigger fires, reply to this email. I read every reply. The conversation that follows is a triage call — Petrichor engagement, internal sprint with kit, or different team. One of three answers.
 

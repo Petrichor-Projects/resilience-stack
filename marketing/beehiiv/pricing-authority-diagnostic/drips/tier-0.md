@@ -155,7 +155,7 @@ One mechanic moving is noise. Two moving in the same direction inside one quarte
 
 The major renewal wave in a quarter. The Series C raise. The list-price reset the team has been postponing for two years. The buyer-side procurement event (CFO mandate to renegotiate vendor contracts in your category). Any of these resets the standard pricing authority has to clear. The standard a quiet quarter requires is not the standard a renewal wave requires.
 
-If neither fires, you do not need to talk to me. Keep the quarterly self-check on the calendar. The kit at [github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic) is the asset.
+If neither fires, you do not need to talk to me. Keep the quarterly self-check on the calendar. The kit at [github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic) is the asset.
 
 If a trigger fires, reply to this email or book — {{calendly-url}}.
 

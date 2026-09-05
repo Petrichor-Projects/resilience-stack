@@ -12,10 +12,10 @@
 
 **Open in tabs (this order, left to right):**
 
-1. github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic
-2. github.com/petrichorprojects/resilience-stack/blob/main/skills/growth/pricing-authority-diagnostic/SKILL.md
+1. github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic
+2. github.com/Petrichor-Projects/resilience-stack/blob/main/skills/growth/pricing-authority-diagnostic/SKILL.md
 3. A blank Google Doc styled to look like the Helix scorecard (or a screenshot of the scorecard table from `marketing/beehiiv/pricing-authority-diagnostic/drips/tier-2.md` rendered)
-4. github.com/petrichorprojects/resilience-stack/blob/main/docs/manifesto.md scrolled to "the three stages of framework decay"
+4. github.com/Petrichor-Projects/resilience-stack/blob/main/docs/manifesto.md scrolled to "the three stages of framework decay"
 
 **Mic check:** Talk for 30 seconds, play back, adjust gain so peaks hit ~-6dB. External mic if available. MacBook mic if not, but lean closer than feels natural.
 

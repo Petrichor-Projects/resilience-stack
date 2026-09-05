@@ -30,7 +30,7 @@ This is the failure mode the foundational thesis of the Resilience Stack — `do
 
 ## The framework — the Price-Value Integrity Map
 
-The Pricing Authority Diagnostic ([skills/growth/pricing-authority-diagnostic](https://github.com/petrichorprojects/resilience-stack)) is built on a single load-bearing concept: the Price-Value Integrity Map. Five integrity points, each scored on a six-point scale, composited into a Pricing Authority Score out of thirty. The points are Price Signal, Value Metric, Pricing Psychology, Expansion Economics, and Increase Readiness. The score is the diagnostic. The deliverable is the 90-day action plan.
+The Pricing Authority Diagnostic ([skills/growth/pricing-authority-diagnostic](https://github.com/Petrichor-Projects/resilience-stack)) is built on a single load-bearing concept: the Price-Value Integrity Map. Five integrity points, each scored on a six-point scale, composited into a Pricing Authority Score out of thirty. The points are Price Signal, Value Metric, Pricing Psychology, Expansion Economics, and Increase Readiness. The score is the diagnostic. The deliverable is the 90-day action plan.
 
 Patrick Campbell's work at Paddle has documented something the industry has been slow to absorb: companies that raise prices on a consistent cadence outperform those that do not, and the gap is structural. A company that has not raised in twenty-four months is teaching its customer base, its reps, and its own pricing committee that the list price does not move. The diagnostic operationalizes the same observation on a quarterly cadence.
 
@@ -90,7 +90,7 @@ The honesty matters. A framework that pretends to apply universally is one you c
 
 ## Run the diagnostic
 
-If anything in this essay described a pattern you have been watching without naming — the discount creep your sales leader keeps explaining as buyer pressure, the per-unit metric that breaks at your largest customers, the thirty months without a price increase that nobody has the muscle to test — the next move is the Pricing Authority Diagnostic skill in the Resilience Stack repo: [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack) — `skills/growth/pricing-authority-diagnostic`. Five-question quiz returns your tier assessment and top 3 actions. The Loom walkthrough shows the full diagnostic in five minutes. Next week's kit: `investor-story-forensics` — what happens when you apply the same evidence-grade discipline to the story you tell investors about the next twenty-four months.
+If anything in this essay described a pattern you have been watching without naming — the discount creep your sales leader keeps explaining as buyer pressure, the per-unit metric that breaks at your largest customers, the thirty months without a price increase that nobody has the muscle to test — the next move is the Pricing Authority Diagnostic skill in the Resilience Stack repo: [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack) — `skills/growth/pricing-authority-diagnostic`. Five-question quiz returns your tier assessment and top 3 actions. The Loom walkthrough shows the full diagnostic in five minutes. Next week's kit: `investor-story-forensics` — what happens when you apply the same evidence-grade discipline to the story you tell investors about the next twenty-four months.
 
 *— Phil, Petrichor Projects*
 

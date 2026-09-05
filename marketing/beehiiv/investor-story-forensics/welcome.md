@@ -23,8 +23,8 @@ You do not have a forensic-diligence problem right now. You have a maintenance p
 
 Two things:
 
-1. Read the [manifesto](https://github.com/petrichorprojects/resilience-stack/blob/main/docs/manifesto.md) — 20 minutes on why investor narratives decay even when the business is healthy.
-2. Bookmark the kit — [investor-story-forensics kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/investor/investor-story-forensics). Run the QoE Dry Run and Reference Refresh as a 60-minute quarterly self-check.
+1. Read the [manifesto](https://github.com/Petrichor-Projects/resilience-stack/blob/main/docs/manifesto.md) — 20 minutes on why investor narratives decay even when the business is healthy.
+2. Bookmark the kit — [investor-story-forensics kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/investor/investor-story-forensics). Run the QoE Dry Run and Reference Refresh as a 60-minute quarterly self-check.
 
 No call. Five emails over the next two weeks on holding Tier 0 through the next raise.
 
@@ -45,9 +45,9 @@ The diligence team has not run the calls yet. This is the cheapest stage to hard
 
 Three things:
 
-1. Download the kit — [investor-story-forensics kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/investor/investor-story-forensics). Block 3 hours. Bring the current deck, the trailing 4Q financials, your reference list, and your bear-case doc (or admit you do not have one).
+1. Download the kit — [investor-story-forensics kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/investor/investor-story-forensics). Block 3 hours. Bring the current deck, the trailing 4Q financials, your reference list, and your bear-case doc (or admit you do not have one).
 2. Re-test the same five questions 30 days after the hardening sprint. Two scores improved = you caught it. Not = escalate.
-3. Read the [manifesto](https://github.com/petrichorprojects/resilience-stack/blob/main/docs/manifesto.md).
+3. Read the [manifesto](https://github.com/Petrichor-Projects/resilience-stack/blob/main/docs/manifesto.md).
 
 Five emails over the next two weeks walking the Aperture case study and the QoE Dry Run protocol.
 
@@ -70,7 +70,7 @@ At Tier 2, a kit alone is rarely enough. The audit will name the fault lines pre
 
 Two things:
 
-1. Download and run the diagnostic before anything else — [investor-story-forensics kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/investor/investor-story-forensics).
+1. Download and run the diagnostic before anything else — [investor-story-forensics kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/investor/investor-story-forensics).
 2. Watch the 6-minute Loom — {{loom-url}}. The Aperture walkthrough — industrial QA SaaS, Series B, $42M ARR, 14/30 Vulnerable, top-1 customer at 26%, claimed J-curve / actual linear. Watch before anything else.
 
 Calendar if you want to talk — {{calendly-url}}.
@@ -96,7 +96,7 @@ One thing:
 
 The 6-minute Loom walking the Aperture case is here — {{loom-url}}. Watch before we talk.
 
-You can download the kit — [investor-story-forensics kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/investor/investor-story-forensics) — for the same diagnostic vocabulary. The kit is not the path out of Tier 3. The path out is the engagement.
+You can download the kit — [investor-story-forensics kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/investor/investor-story-forensics) — for the same diagnostic vocabulary. The kit is not the path out of Tier 3. The path out is the engagement.
 
 Phil
 Petrichor Projects · [petrichorgrowth.com](https://petrichorgrowth.com)

@@ -16,7 +16,7 @@ Hi {{first_name}},
 
 Tier 1 Vulnerable is the cheapest stage to fix. One or two fault lines have moved. The deck still reads clean to the team that built it. The reference list is mostly current but at least one entry has drifted. The bear case was written and parked. The split-room test would now produce a visible divergence on at least one major claim. None of this is yet visible in partner meetings — and that is the entire point. The window to close the gap cheaply is open right now and closes the day the partner meetings start.
 
-The kit — [investor-story-forensics kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/positioning/investor-story-forensics). Block 3 hours. Bring CEO, CFO, and head of customer success. The audit does not work without all three in the room because the vulnerability at Tier 1 usually lives between functional views of the same number.
+The kit — [investor-story-forensics kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/positioning/investor-story-forensics). Block 3 hours. Bring CEO, CFO, and head of customer success. The audit does not work without all three in the room because the vulnerability at Tier 1 usually lives between functional views of the same number.
 
 The 9 forensic segments, in order:
 

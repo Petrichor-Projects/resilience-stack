@@ -43,7 +43,7 @@ Day 30 — positioning rewrite using buyer language (6/12 terms now used). Net-n
 5 questions, 90 seconds. Returns your decay-stage assessment + top 3 actions for the next 90 days. {{tally-url}}
 
 **Tweet 11 (kit + repo CTA)**
-The full skill — relevancy-audit — is in the Resilience Stack repo. CC BY 4.0. Runs in any modern AI assistant. github.com/petrichorprojects/resilience-stack — skills/positioning/relevancy-audit
+The full skill — relevancy-audit — is in the Resilience Stack repo. CC BY 4.0. Runs in any modern AI assistant. github.com/Petrichor-Projects/resilience-stack — skills/positioning/relevancy-audit
 
 **Tweet 12 (close)**
 Bookmark this if you've watched your win rate slide for two quarters without anyone naming the cause. The fix isn't a rebrand. It isn't more spend. It's a diagnostic that tells you which stage of decay you're in. Run it on schedule — or be refreshed by the market.
@@ -110,7 +110,7 @@ The honesty matters. A framework that pretends to apply universally is one you c
 
 **The kit, the quiz, the essay**
 
-The full Relevancy Audit skill is in the open-source Resilience Stack repo at github.com/petrichorprojects/resilience-stack under skills/positioning/relevancy-audit. CC BY 4.0. Runs in any modern AI assistant.
+The full Relevancy Audit skill is in the open-source Resilience Stack repo at github.com/Petrichor-Projects/resilience-stack under skills/positioning/relevancy-audit. CC BY 4.0. Runs in any modern AI assistant.
 
 5-question quiz returns your stage assessment and top 3 actions: {{tally-url}}
 
@@ -135,7 +135,7 @@ Nobody had done anything wrong. The product hadn't regressed. The team hadn't sh
 The canonical artifact lives in the repo at `marketing/essays/relevancy-audit.md`. Substack and LinkedIn versions carry rel-canonical pointing back to petrichorgrowth.com/blog/relevancy-audit so search consolidates on the Petrichor site.
 
 **Footer:**
-*— Phil, Petrichor Projects · Resilience Stack v1.5 · CC BY 4.0 · [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack) · Kit path: skills/positioning/relevancy-audit · Quiz: {{tally-url}}*
+*— Phil, Petrichor Projects · Resilience Stack v1.5 · CC BY 4.0 · [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack) · Kit path: skills/positioning/relevancy-audit · Quiz: {{tally-url}}*
 
 ---
 

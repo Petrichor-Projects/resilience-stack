@@ -16,7 +16,7 @@ Hi {{first_name}},
 
 Tier 1 Drifting is the cheapest stage to close. One or two of the five mechanics moved. The pattern is not yet visible in the boardroom. The team has not raised a flag. You have 60–90 days to reset before the next board cycle locks in the drift.
 
-The kit — [revenue-story-audit kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/revenue-story-audit). Block 2.5 hours. Bring the CEO, the CFO, and the head of sales. The audit does not work without all three in the room because the disconnect at Tier 1 usually lives between functional views of the same revenue.
+The kit — [revenue-story-audit kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/revenue-story-audit). Block 2.5 hours. Bring the CEO, the CFO, and the head of sales. The audit does not work without all three in the room because the disconnect at Tier 1 usually lives between functional views of the same revenue.
 
 The 9 segments, in order:
 

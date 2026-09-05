@@ -20,7 +20,7 @@ Two things:
 
 **1. Watch the Loom — {{loom-url}}.** Six minutes. Aperture worked example. Tier 2 Cracking. +95% growth claim vs +68% trailing. NRR claimed 130% vs 117% gross. The Loom walks the audit, the leadership conversations, and the rebuilt brief.
 
-**2. Run the kit — [investor-story-forensics kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/positioning/investor-story-forensics).** 3-hour session. Bring CEO, CFO, head of customer success. The Claim-Evidence Matrix at the end gives you a number per claim (0/3 to 3/3) and a total across the top 15. Two things to look for: which claims scored worst, and which scored worst together. Clusters tell you whether the cracking is at the evidence layer (claims at 0/3 or 1/3), the window layer (claims with no trailing-four-quarter anchor), or the owner layer (claims with no named defender).
+**2. Run the kit — [investor-story-forensics kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/positioning/investor-story-forensics).** 3-hour session. Bring CEO, CFO, head of customer success. The Claim-Evidence Matrix at the end gives you a number per claim (0/3 to 3/3) and a total across the top 15. Two things to look for: which claims scored worst, and which scored worst together. Clusters tell you whether the cracking is at the evidence layer (claims at 0/3 or 1/3), the window layer (claims with no trailing-four-quarter anchor), or the owner layer (claims with no named defender).
 
 Calendar — {{calendly-url}}.
 

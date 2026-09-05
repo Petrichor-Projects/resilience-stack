@@ -2,9 +2,9 @@
 set -euo pipefail
 
 # Resilience Stack — bulk installer
-# Usage: curl -fsSL https://raw.githubusercontent.com/petrichorprojects/resilience-stack/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/Petrichor-Projects/resilience-stack/main/install.sh | bash
 
-REPO="petrichorprojects/resilience-stack"
+REPO="Petrichor-Projects/resilience-stack"
 BRANCH="main"
 DEST="${HOME}/.claude/skills"
 

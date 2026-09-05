@@ -46,7 +46,7 @@ Post-rebuild: 21/30. Defensible. +7 lift, above the 30% threshold. NRR slide bec
 5 questions, 90 seconds. Returns your Narrative Integrity tier + top 3 reconstruction actions for the next 30 days. {{tally-url}}
 
 **Tweet 12 (kit + repo CTA + v1.5 milestone)**
-Investor Story Forensics — Kit 5, the final kit of Resilience Stack v1.5. CC BY 4.0. Runs in any modern AI. github.com/petrichorprojects/resilience-stack. v1.5 is now live — manifesto + 5 polished kits. Bookmark if you're 8-14 months from a Series B or C.
+Investor Story Forensics — Kit 5, the final kit of Resilience Stack v1.5. CC BY 4.0. Runs in any modern AI. github.com/Petrichor-Projects/resilience-stack. v1.5 is now live — manifesto + 5 polished kits. Bookmark if you're 8-14 months from a Series B or C.
 
 ---
 
@@ -112,7 +112,7 @@ Already inside diligence with under 14 days to a term sheet — too late, use ta
 
 **The kit, the quiz, and the milestone**
 
-The full Investor Story Forensics skill is in the Resilience Stack repo at github.com/petrichorprojects/resilience-stack under skills/investor/investor-story-forensics. CC BY 4.0. Runs in any modern AI assistant.
+The full Investor Story Forensics skill is in the Resilience Stack repo at github.com/Petrichor-Projects/resilience-stack under skills/investor/investor-story-forensics. CC BY 4.0. Runs in any modern AI assistant.
 
 5-question quiz returns your Narrative Integrity tier assessment and top 3 reconstruction actions: {{tally-url}}
 
@@ -139,7 +139,7 @@ The CEO's instinct was to hold the 130. Eight months later the round closed at o
 The canonical artifact lives in the repo at `marketing/essays/investor-story-forensics.md`. Substack and LinkedIn versions carry rel-canonical pointing back to petrichorgrowth.com/blog/investor-story-forensics so search consolidates on the Petrichor site.
 
 **Footer:**
-*— Phil, Petrichor Projects · Resilience Stack v1.5 Kit 5 (FINAL) · CC BY 4.0 · [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack) · Kit path: skills/investor/investor-story-forensics · Quiz: {{tally-url}}*
+*— Phil, Petrichor Projects · Resilience Stack v1.5 Kit 5 (FINAL) · CC BY 4.0 · [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack) · Kit path: skills/investor/investor-story-forensics · Quiz: {{tally-url}}*
 
 ---
 

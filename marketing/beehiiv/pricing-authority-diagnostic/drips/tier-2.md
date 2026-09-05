@@ -20,7 +20,7 @@ Two things:
 
 **1. Watch the Loom — {{loom-url}}.** Six minutes. Helix worked example. Tier 2 Compromised. Discount 8→21% in four quarters. NRR 108→96%. The Loom walks the layered diagnostic, the leadership conversations, and the artifact.
 
-**2. Run the kit — [pricing-authority-diagnostic kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic).** 3-hour session. Bring CEO, CFO, head of sales. The scorecard at the end gives you a number per segment (0–3) and a total (0–27). Two things to look for: which segment scored worst, and which segments scored worst together. Clusters tell you whether the compromise is at the discipline layer (segments 1, 2, 6), the value-metric layer (segments 4, 8), or the rev-rec layer (segments 3, 7).
+**2. Run the kit — [pricing-authority-diagnostic kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic).** 3-hour session. Bring CEO, CFO, head of sales. The scorecard at the end gives you a number per segment (0–3) and a total (0–27). Two things to look for: which segment scored worst, and which segments scored worst together. Clusters tell you whether the compromise is at the discipline layer (segments 1, 2, 6), the value-metric layer (segments 4, 8), or the rev-rec layer (segments 3, 7).
 
 Calendar — {{calendly-url}}.
 

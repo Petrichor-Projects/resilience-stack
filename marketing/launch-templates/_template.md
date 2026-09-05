@@ -84,7 +84,7 @@ Footer must include: byline, license, repo link, kit link.
 
 [EXPANSION 2: LINKS TO EVALS + SCORING RUBRIC — Walk through how the kit is evaluated (link to evals/{{skill-name}}/) and how the scorecard scores (link to scoring-rubrics/). Two paragraphs. Establishes that this is not vibes.]
 
-[FOOTER — Byline: *— Phil, Petrichor Projects*. License: CC BY 4.0. Repo link: https://github.com/petrichorprojects/resilience-stack. Kit link: direct path. Quiz link: Tally URL.]
+[FOOTER — Byline: *— Phil, Petrichor Projects*. License: CC BY 4.0. Repo link: https://github.com/Petrichor-Projects/resilience-stack. Kit link: direct path. Quiz link: Tally URL.]
 
 ---
 

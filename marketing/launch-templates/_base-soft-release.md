@@ -5,7 +5,7 @@ Goal: announce v1.2 is public, set expectations for the 5-week kit cadence, driv
 Length: 200–350 words. First line must earn the in-feed "see more."
 Voice: direct, evidence-driven, no platitudes, no comment-bait, no fake urgency.
 Cite manifesto: docs/manifesto.md ("Why Frameworks Decay").
-Repo URL: https://github.com/petrichorprojects/resilience-stack
+Repo URL: https://github.com/Petrichor-Projects/resilience-stack
 -->
 
 # Week 0 Soft Release — LinkedIn Announcement
@@ -32,7 +32,7 @@ Over the next 5 weeks I'm publishing one polished kit per week. Each kit will la
 
 If you run strategy inside a company, advise companies that do, or just want to see what a maintained library of strategy frameworks looks like when you treat the maintenance as the work — bookmark the repo.
 
-**Repo:** https://github.com/petrichorprojects/resilience-stack
+**Repo:** https://github.com/Petrichor-Projects/resilience-stack
 
 *— Phil, Petrichor Projects*
 

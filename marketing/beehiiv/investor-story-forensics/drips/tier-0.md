@@ -148,7 +148,7 @@ One fault line moving is noise. Two moving in the same direction inside one quar
 
 The Series B partner meetings. The Series C kickoff. The bridge round timeline. The board review where a major valuation decision (option grants, secondary, employee equity refresh) hinges on internal narrative. Any of these resets the standard the narrative has to clear. The standard a quiet quarter requires is not the standard a partner meeting requires. A 90-day window is long enough to run the full audit and ship the reconstructed brief. A 30-day window is not — at 30 days, the right work is sometimes to push the kickoff and sometimes to walk in with what you have.
 
-If neither fires, you do not need to talk to me. Keep the quarterly self-check on the calendar. The kit at [github.com/petrichorprojects/resilience-stack/tree/main/skills/positioning/investor-story-forensics](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/positioning/investor-story-forensics) is the asset.
+If neither fires, you do not need to talk to me. Keep the quarterly self-check on the calendar. The kit at [github.com/Petrichor-Projects/resilience-stack/tree/main/skills/positioning/investor-story-forensics](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/positioning/investor-story-forensics) is the asset.
 
 If a trigger fires, reply to this email or book — {{calendly-url}}. The call ends with one of three answers (run the audit internally / Petrichor engagement / different team).
 

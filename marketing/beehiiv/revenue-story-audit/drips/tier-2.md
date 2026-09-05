@@ -20,7 +20,7 @@ Two things, in order:
 
 **1. Watch the Loom — {{loom-url}}.** Six minutes. NorthStack worked example. Tier 2 going in. Top-1 customer at 22% of revenue with no mitigation. Forecast claim +120% vs trailing actual +47%. NRR deck claim 115% vs cohort-anchored 96%. The Loom walks the reconciliation we ran, the leadership conversations it required, and the artifact that came out.
 
-**2. Run the kit — [revenue-story-audit kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/revenue-story-audit).** 3-hour session. Bring CEO, CFO, head of sales. The scorecard at the end gives you a number per segment (0–3) and a total (0–27). Two things to look for: which segment scored worst, and which segments scored worst together. The clusters tell you whether the disconnect is data-layer (segments 1, 7, 8), narrative-layer (segments 2, 5, 9), or attribution-layer (segments 3, 4, 6).
+**2. Run the kit — [revenue-story-audit kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/revenue-story-audit).** 3-hour session. Bring CEO, CFO, head of sales. The scorecard at the end gives you a number per segment (0–3) and a total (0–27). Two things to look for: which segment scored worst, and which segments scored worst together. The clusters tell you whether the disconnect is data-layer (segments 1, 7, 8), narrative-layer (segments 2, 5, 9), or attribution-layer (segments 3, 4, 6).
 
 Calendar if you want to talk — {{calendly-url}}. 30 minutes. No pitch. The call ends with one of three answers (run the reconciliation internally / Petrichor engagement / different team).
 
@@ -170,7 +170,7 @@ The call ends with one of three answers (internal reconciliation / Petrichor eng
 
 Calendar: {{calendly-url}}. 30 minutes.
 
-If you do not book, that is fine. You stay on the Category Gravity list. I send the next thing worth your inbox when I have one. Resilience Stack repo: [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack).
+If you do not book, that is fine. You stay on the Category Gravity list. I send the next thing worth your inbox when I have one. Resilience Stack repo: [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack).
 
 — Phil
 Petrichor Projects · [petrichorgrowth.com](https://petrichorgrowth.com)

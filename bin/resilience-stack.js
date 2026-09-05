@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const https = require("https");
 
-const REPO = "petrichorprojects/resilience-stack";
+const REPO = "Petrichor-Projects/resilience-stack";
 const BRANCH = "main";
 const TRACKS = [
   "positioning",

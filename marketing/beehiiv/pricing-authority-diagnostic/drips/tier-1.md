@@ -16,7 +16,7 @@ Hi {{first_name}},
 
 Tier 1 Eroding is the cheapest stage to fix. Discounts have crept up. Quarter-end is doing more work than your value proposition is. NRR has flattened. The pattern is not yet visible in the deck.
 
-The kit — [pricing-authority-diagnostic kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic). Block 2.5 hours. Bring CEO, CFO, head of sales. The diagnostic does not work without all three in the room because the erosion at Tier 1 usually lives between functional views of the same discount file.
+The kit — [pricing-authority-diagnostic kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/pricing-authority-diagnostic). Block 2.5 hours. Bring CEO, CFO, head of sales. The diagnostic does not work without all three in the room because the erosion at Tier 1 usually lives between functional views of the same discount file.
 
 The 9 segments, in order:
 

@@ -16,7 +16,7 @@ Hi {{first_name}},
 
 Stage 2 Disconnect is the point where the kit alone is rarely enough — but it is still the right first step. The scorecard from the kit tells you which of the nine segments are most decayed, which is the single most useful input I can bring to a call. Without it, we spend the first 20 minutes of any conversation reconstructing what you already know.
 
-The kit — [relevancy-audit kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/positioning/relevancy-audit). Run it as a 3-hour session this week if you can. Bring win/loss data, the last customer survey, the last three lost-deal post-mortems, and your top three competitors' homepage hero copy (current, verbatim).
+The kit — [relevancy-audit kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/positioning/relevancy-audit). Run it as a 3-hour session this week if you can. Bring win/loss data, the last customer survey, the last three lost-deal post-mortems, and your top three competitors' homepage hero copy (current, verbatim).
 
 The scorecard at the end of the kit gives you a number per segment (0–3) and a total (0–27). Two things to look for:
 
@@ -179,7 +179,7 @@ The call ends with one of three answers. The answer is honest. If Petrichor is n
 
 Calendar: {{calendly-url}}.
 
-If you do not book, that is fine. You stay on the Category Gravity list. I will send the next thing worth your inbox when I have something to say. Resilience Stack repo gets updated as the methodology evolves — [github.com/petrichorprojects/resilience-stack](https://github.com/petrichorprojects/resilience-stack). Star for release notes.
+If you do not book, that is fine. You stay on the Category Gravity list. I will send the next thing worth your inbox when I have something to say. Resilience Stack repo gets updated as the methodology evolves — [github.com/Petrichor-Projects/resilience-stack](https://github.com/Petrichor-Projects/resilience-stack). Star for release notes.
 
 That's the welcome arc.
 

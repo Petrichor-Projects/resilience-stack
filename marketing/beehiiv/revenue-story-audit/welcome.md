@@ -23,8 +23,8 @@ You do not have a revenue-narrative problem right now. You have a maintenance pr
 
 Two things:
 
-1. Read the [manifesto](https://github.com/petrichorprojects/resilience-stack/blob/main/docs/manifesto.md) — 20 minutes on why revenue narratives decay even when the business is healthy.
-2. Bookmark the kit — [revenue-story-audit kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/revenue-story-audit). Run the $1 Trace and the Board Deck Lie Detector as a 45-minute quarterly self-check. If two of the five signals slip, that is your trigger to run the full audit.
+1. Read the [manifesto](https://github.com/Petrichor-Projects/resilience-stack/blob/main/docs/manifesto.md) — 20 minutes on why revenue narratives decay even when the business is healthy.
+2. Bookmark the kit — [revenue-story-audit kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/revenue-story-audit). Run the $1 Trace and the Board Deck Lie Detector as a 45-minute quarterly self-check. If two of the five signals slip, that is your trigger to run the full audit.
 
 No call needed. Five emails over the next two weeks on how to hold Tier 0.
 
@@ -45,9 +45,9 @@ This is the cheapest stage to fix. Companies that catch it here usually need a f
 
 Three things:
 
-1. Download the kit — [revenue-story-audit kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/revenue-story-audit). Block 2.5 hours. Bring your last two board decks. Bring the CEO, the CFO, and the head of sales — the audit does not work without all three in the room.
+1. Download the kit — [revenue-story-audit kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/revenue-story-audit). Block 2.5 hours. Bring your last two board decks. Bring the CEO, the CFO, and the head of sales — the audit does not work without all three in the room.
 2. Re-test the same five questions 30 days after you ship the reconciliation. Two scores improved = you caught it in time. Not = escalate.
-3. Read the [manifesto](https://github.com/petrichorprojects/resilience-stack/blob/main/docs/manifesto.md).
+3. Read the [manifesto](https://github.com/Petrichor-Projects/resilience-stack/blob/main/docs/manifesto.md).
 
 You will get five emails over the next two weeks walking through the kit step by step, plus the NorthStack case study showing how Tier 1 Drift gets caught 60 days before Series C kickoff.
 
@@ -70,7 +70,7 @@ At Tier 2, a kit alone is rarely enough. The audit will name the gap precisely �
 
 Two things:
 
-1. Download the kit and run the diagnostic before anything else — [revenue-story-audit kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/revenue-story-audit). The scorecard tells you which of the 9 segments are most decayed and what the composite Forecast Integrity Score is.
+1. Download the kit and run the diagnostic before anything else — [revenue-story-audit kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/revenue-story-audit). The scorecard tells you which of the 9 segments are most decayed and what the composite Forecast Integrity Score is.
 2. Watch the private 6-minute Loom — {{loom-url}}. The NorthStack walkthrough — Tier 2, top-1 customer at 22%, forecast +120% claimed vs +47% actual. Watch before you do anything else.
 
 The Loom is not a sales pitch. It is the diagnostic vocabulary we will use if and when you book a call. If after watching it you think the kit alone is enough, run it yourself. Calendar link if you want to talk — {{calendly-url}}.
@@ -96,7 +96,7 @@ One thing:
 
 The 6-minute Loom that walks the NorthStack case is here — {{loom-url}}. Watch before we talk.
 
-You can download the kit — [revenue-story-audit kit](https://github.com/petrichorprojects/resilience-stack/tree/main/skills/growth/revenue-story-audit) — for the same diagnostic vocabulary. The kit is not the path out of Tier 3. The path out is the engagement.
+You can download the kit — [revenue-story-audit kit](https://github.com/Petrichor-Projects/resilience-stack/tree/main/skills/growth/revenue-story-audit) — for the same diagnostic vocabulary. The kit is not the path out of Tier 3. The path out is the engagement.
 
 Phil
 Petrichor Projects · [petrichorgrowth.com](https://petrichorgrowth.com)
