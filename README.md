@@ -11,14 +11,18 @@ Not comprehensive. Curated. No filler.
 ## Quick Install
 
 ```bash
-npx resilience-stack add positioning-under-pressure
+git clone https://github.com/Petrichor-Projects/resilience-stack
+cd resilience-stack
+./install.sh
 ```
 
-Or clone the whole stack:
+Or install one skill from the inspected checkout:
 
 ```bash
-git clone https://github.com/Petrichor-Projects/resilience-stack ~/.claude/skills/resilience-stack
+node bin/resilience-stack.js add positioning-under-pressure
 ```
+
+The npm package has not been published yet. Do not run the unscoped `npx resilience-stack` command. The installers above copy only the files in the checkout and make no network requests.
 
 Skills run inside [Claude Code](https://claude.com/claude-code) or the [Claude Agent SDK](https://docs.claude.com). Bring your own API key — nothing phones home.
 

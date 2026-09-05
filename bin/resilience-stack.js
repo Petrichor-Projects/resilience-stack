@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 const fs = require("fs");
+const os = require("os");
 const path = require("path");
-const https = require("https");
 
 const REPO = "Petrichor-Projects/resilience-stack";
-const BRANCH = "main";
+const PACKAGE_ROOT = path.resolve(__dirname, "..");
+const SKILLS_ROOT = path.join(PACKAGE_ROOT, "skills");
 const TRACKS = [
   "positioning",
   "diagnostic",
@@ -23,121 +24,115 @@ function help() {
 resilience-stack — Petrichor Strategy Stack installer
 
 Usage:
-  npx resilience-stack list                List all available skills
-  npx resilience-stack add <skill>         Install one skill to ~/.claude/skills/
-  npx resilience-stack add-all             Install all 18 skills
-  npx resilience-stack help                Show this help
+  node bin/resilience-stack.js list                List all available skills
+  node bin/resilience-stack.js add <skill>         Install one skill
+  node bin/resilience-stack.js add-all             Install all 18 skills
+  node bin/resilience-stack.js help                Show this help
 
-Skills install to: ~/.claude/skills/<skill-name>/
+Skills install to: ~/.claude/skills/<skill-name>/ by default
 Full docs: https://github.com/${REPO}
 License: CC BY 4.0 — credit Petrichor Projects (https://petrichorgrowth.com)
   `);
 }
 
-async function fetchJSON(url) {
-  return new Promise((resolve, reject) => {
-    https
-      .get(url, { headers: { "User-Agent": "resilience-stack" } }, (res) => {
-        let data = "";
-        res.on("data", (c) => (data += c));
-        res.on("end", () => {
-          try {
-            resolve(JSON.parse(data));
-          } catch (e) {
-            reject(e);
-          }
-        });
-      })
-      .on("error", reject);
-  });
+function destinationRoot() {
+  return process.env.RESILIENCE_STACK_SKILLS_DIR ||
+    path.join(os.homedir(), ".claude", "skills");
 }
 
-async function fetchText(url) {
-  return new Promise((resolve, reject) => {
-    https
-      .get(url, { headers: { "User-Agent": "resilience-stack" } }, (res) => {
-        let data = "";
-        res.on("data", (c) => (data += c));
-        res.on("end", () => resolve(data));
-      })
-      .on("error", reject);
-  });
+function skillDirectories(track) {
+  const trackPath = path.join(SKILLS_ROOT, track);
+  if (!fs.existsSync(trackPath)) return [];
+  return fs
+    .readdirSync(trackPath, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort();
 }
 
-async function listSkills() {
+function listSkills() {
   console.log("\nResilience Stack — 18 strategy frameworks\n");
   for (const track of TRACKS) {
-    const url = `https://api.github.com/repos/${REPO}/contents/skills/${track}?ref=${BRANCH}`;
-    try {
-      const items = await fetchJSON(url);
-      if (!Array.isArray(items)) continue;
-      console.log(`  ${track}/`);
-      for (const item of items) {
-        if (item.type === "dir") console.log(`    - ${item.name}`);
-      }
-    } catch (e) {
-      // skip
-    }
+    const skills = skillDirectories(track);
+    if (skills.length === 0) continue;
+    console.log(`  ${track}/`);
+    for (const skill of skills) console.log(`    - ${skill}`);
   }
-  console.log("\nInstall: npx resilience-stack add <skill-name>\n");
+  console.log("\nInstall: node bin/resilience-stack.js add <skill-name>\n");
 }
 
-async function findSkillTrack(skill) {
+function findSkillTrack(skill) {
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(skill)) return null;
   for (const track of TRACKS) {
-    const url = `https://api.github.com/repos/${REPO}/contents/skills/${track}/${skill}?ref=${BRANCH}`;
-    try {
-      const items = await fetchJSON(url);
-      if (Array.isArray(items)) return track;
-    } catch (e) {}
+    const source = path.join(SKILLS_ROOT, track, skill);
+    if (fs.existsSync(source) && fs.statSync(source).isDirectory()) return track;
   }
   return null;
 }
 
-async function addSkill(skill) {
-  const track = await findSkillTrack(skill);
+function addSkill(skill) {
+  const track = findSkillTrack(skill);
   if (!track) {
     console.error(`Skill not found: ${skill}`);
-    console.error("Run: npx resilience-stack list");
-    process.exit(1);
+    console.error("Run: node bin/resilience-stack.js list");
+    return false;
   }
 
-  const home = process.env.HOME || process.env.USERPROFILE;
-  const dest = path.join(home, ".claude", "skills", skill);
-  fs.mkdirSync(dest, { recursive: true });
+  const source = path.join(SKILLS_ROOT, track, skill);
+  const root = destinationRoot();
+  const dest = path.join(root, skill);
+  fs.mkdirSync(root, { recursive: true });
 
-  const fileURL = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/skills/${track}/${skill}/${skill}.md`;
-  const md = await fetchText(fileURL);
-
-  if (!md || md.length < 200) {
-    console.error(`Failed to fetch ${skill}.md`);
-    process.exit(1);
+  if (fs.existsSync(dest)) {
+    const existing = fs.lstatSync(dest);
+    if (existing.isSymbolicLink()) {
+      console.error(`Refusing to install over symbolic link: ${dest}`);
+      return false;
+    }
+    console.log(`Skipped existing skill: ${skill}`);
+    return true;
   }
 
-  fs.writeFileSync(path.join(dest, `${skill}.md`), md);
+  const stagingRoot = fs.mkdtempSync(path.join(root, `.${skill}.tmp-`));
+  const staged = path.join(stagingRoot, skill);
+  try {
+    fs.cpSync(source, staged, {
+      recursive: true,
+      errorOnExist: true,
+      force: false,
+    });
+    fs.renameSync(staged, dest);
+  } finally {
+    fs.rmSync(stagingRoot, { recursive: true, force: true });
+  }
+
   console.log(`Installed: ${skill}`);
-  console.log(`  → ${dest}/${skill}.md`);
+  console.log(`  → ${dest}`);
   console.log(`  Track: ${track}`);
+  return true;
 }
 
-async function addAll() {
+function addAll() {
+  let ok = true;
   for (const track of TRACKS) {
-    const url = `https://api.github.com/repos/${REPO}/contents/skills/${track}?ref=${BRANCH}`;
-    try {
-      const items = await fetchJSON(url);
-      if (!Array.isArray(items)) continue;
-      for (const item of items) {
-        if (item.type === "dir") await addSkill(item.name);
-      }
-    } catch (e) {}
+    for (const skill of skillDirectories(track)) {
+      if (!addSkill(skill)) ok = false;
+    }
   }
-  console.log("\nAll skills installed to ~/.claude/skills/");
+  console.log(`\nSkills installed to ${destinationRoot()}/`);
   console.log("License: CC BY 4.0 — credit Petrichor Projects.\n");
+  return ok;
 }
 
-(async () => {
-  if (!cmd || cmd === "help") return help();
-  if (cmd === "list") return listSkills();
-  if (cmd === "add" && args[1]) return addSkill(args[1]);
-  if (cmd === "add-all") return addAll();
+if (!cmd || cmd === "help") {
   help();
-})();
+} else if (cmd === "list") {
+  listSkills();
+} else if (cmd === "add" && args[1]) {
+  if (!addSkill(args[1])) process.exitCode = 1;
+} else if (cmd === "add-all") {
+  if (!addAll()) process.exitCode = 1;
+} else {
+  help();
+  process.exitCode = 1;
+}
