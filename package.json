@@ -1,6 +1,7 @@
 {
   "name": "resilience-stack",
   "version": "1.0.0",
+  "private": true,
   "description": "18 strategy frameworks for positioning that holds under pressure. Curated by Petrichor Projects.",
   "bin": {
     "resilience-stack": "./bin/resilience-stack.js"
@@ -34,6 +35,10 @@
     "README.md",
     "LICENSE"
   ],
+  "scripts": {
+    "test": "node --test",
+    "prepack": "npm test"
+  },
   "engines": {
     "node": ">=18"
   }
