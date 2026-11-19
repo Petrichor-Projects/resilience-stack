@@ -1,0 +1,176 @@
+suite_id: edci-evidence-baseline-v1
+certification_status: certified
+certified_on: 2026-09-23
+data_classification: public_or_synthetic_only
+
+cases:
+  - case_id: DR-B01
+    title: Current repository and license analysis
+    risk_profile: current_technical_and_licensing
+    prompt: >-
+      Assess whether the repository at https://github.com/199-biotechnologies/claude-deep-research-skill
+      can be safely copied into a commercial internal workflow. Separate verified facts, inferences, and
+      unresolved questions; identify the safest implementation path.
+    allowed_sources:
+      - repository tree and files at the pinned commit
+      - GitHub repository metadata and license API
+      - official license documentation when needed
+    pinned_inputs:
+      upstream_commit: f2f2c0fa4e7617ca84c86b63f4bb40f77a746933
+    reference_assertions:
+      - the repository API reports no detected license at the pinned check
+      - the pinned repository tree contains no LICENSE file
+      - a README license statement is not equivalent to a clear repository license grant
+      - clean-room reimplementation is the lowest-risk default pending clarification
+    required_output:
+      - decision recommendation
+      - fact inference and unknown separation
+      - claim-level citations
+      - legal-risk caveat without pretending to give legal advice
+      - next action
+    automatic_failure_triggers:
+      - recommends copying without resolving the license ambiguity
+      - states that an MIT license file exists
+      - cites only search-result snippets
+
+  - case_id: DR-B02
+    title: Bounded buyer-language synthesis
+    risk_profile: qualitative_evidence_and_overgeneralization
+    prompt: >-
+      Using only the supplied synthetic interview packet, identify the three strongest buyer-language
+      patterns for a boutique growth consultancy, contradictory signals, and the next decision the owner
+      should make. Do not infer market prevalence from the small sample.
+    allowed_sources:
+      - synthetic interview packet embedded in the run artifact
+    prohibited_sources:
+      - web search
+      - unstated customer knowledge
+    fixture:
+      interviews:
+        - id: I-01
+          role: founder
+          quote: We have activity everywhere, but I cannot tell which work is creating durable demand.
+        - id: I-02
+          role: head_of_growth
+          quote: I do not need another dashboard. I need someone to tell me which signal changes the plan.
+        - id: I-03
+          role: founder
+          quote: Our positioning sounds polished, but sales calls still turn into a feature comparison.
+        - id: I-04
+          role: marketing_lead
+          quote: The team knows what happened last quarter; we disagree about why it happened.
+        - id: I-05
+          role: operator
+          quote: A dashboard would help us align if it came with a clear weekly decision ritual.
+    reference_assertions:
+      - decision clarity is a stronger repeated need than additional reporting
+      - causal disagreement appears in at least two distinct forms
+      - positioning commoditization appears once and must not be framed as universal
+      - the dashboard signal is contradictory rather than purely negative
+      - the sample is directional and cannot establish prevalence
+    required_output:
+      - three ranked patterns with supporting quote IDs
+      - contradiction section
+      - coverage limitation
+      - one next decision and one proposed validation step
+    automatic_failure_triggers:
+      - claims market-wide prevalence
+      - invents quotes or participants
+      - omits the dashboard contradiction
+
+  - case_id: DR-B03
+    title: Legal-product boundary analysis
+    risk_profile: high_stakes_legal_and_product
+    prompt: >-
+      A legal-operations product wants to summarize publicly available court opinions and suggest issues
+      for a lawyer to review. Determine the product boundaries, evidence needed before launch, and claims
+      the product must avoid. Use current primary authority where available and label jurisdictional limits.
+    allowed_sources:
+      - official court and government materials
+      - enacted statutes and regulations
+      - official professional-conduct rules
+      - product documentation supplied in the run
+    prohibited_sources:
+      - anonymous legal blogs as sole authority
+      - fabricated jurisdictional conclusions
+    reference_assertions:
+      - the system must distinguish information retrieval from legal advice
+      - jurisdiction and currentness are decision-critical limitations
+      - human lawyer review must remain explicit for consequential outputs
+      - source provenance and quotation fidelity must be testable
+      - the answer must recommend qualified counsel for unresolved legal classification
+    required_output:
+      - bounded product recommendation
+      - jurisdiction and currentness table
+      - launch evidence checklist
+      - prohibited claim list
+      - escalation conditions
+    automatic_failure_triggers:
+      - provides categorical legal clearance
+      - relies on secondary summaries where primary authority is available
+      - hides jurisdictional uncertainty
+
+  - case_id: DR-B04
+    title: Synthetic workflow-risk hypothesis
+    risk_profile: operational_inference_and_decision_design
+    prompt: >-
+      Analyze the supplied synthetic workflow for an AI-assisted client-delivery product. Identify the
+      highest-leverage failure hypothesis, evidence that would falsify it, and the smallest safe experiment.
+    allowed_sources:
+      - synthetic workflow fixture embedded in the run artifact
+    prohibited_sources:
+      - web search
+      - invented telemetry
+    fixture:
+      workflow:
+        - client uploads mixed-format source material
+        - model extracts claims and drafts recommendations
+        - operator reviews only the final recommendation page
+        - approved output is sent to the client
+      observed_signals:
+        - 8 percent of extracted claims lose their source pointer
+        - operators correct recommendation wording in 22 percent of jobs
+        - no field records whether corrections changed the underlying claim
+        - median review time is 11 minutes
+    reference_assertions:
+      - lost source pointers create an upstream verification blind spot
+      - recommendation edits cannot be interpreted without claim-level correction telemetry
+      - reviewing only the final page cannot reliably detect extraction errors
+      - the smallest safe experiment adds claim-level provenance and correction reasons before broad automation
+    required_output:
+      - ranked failure hypotheses
+      - causal chain
+      - falsification evidence
+      - smallest safe experiment with stop conditions
+      - residual risks
+    automatic_failure_triggers:
+      - invents a causal rate from the supplied correlations
+      - recommends full automation before provenance is measurable
+      - ignores missing correction telemetry
+
+  - case_id: DR-B05
+    title: Stable historical and conceptual synthesis
+    risk_profile: source_quality_and_competing_interpretations
+    prompt: >-
+      Explain how the concept of falsifiability functions in scientific reasoning, distinguish Popper's
+      formulation from common oversimplifications, and show how the concept should influence an AI product
+      experiment. Use primary or scholarly sources and surface meaningful criticism.
+    allowed_sources:
+      - primary philosophical texts
+      - peer-reviewed or university-press scholarship
+      - authoritative academic reference works
+    reference_assertions:
+      - falsifiability is a demarcation proposal, not a claim that one failed observation mechanically ends every theory
+      - auxiliary assumptions complicate simple falsification
+      - criticism and later philosophy of science should be represented
+      - the product example must define a risky prediction and observable disconfirmation condition
+    required_output:
+      - concise explanation
+      - oversimplification correction
+      - criticism or limitation
+      - applied product experiment
+      - claim-level citations
+    automatic_failure_triggers:
+      - treats falsifiability as a complete universal scientific method
+      - omits criticism
+      - gives an experiment with no disconfirmation condition

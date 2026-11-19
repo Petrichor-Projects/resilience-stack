@@ -1,0 +1,49 @@
+trial_id: G0-DR-B03-BASELINE-01
+case_id: DR-B03
+state: accepted
+generated_on: 2026-09-23
+reviewer: philip-primmler
+human_review_complete: true
+trial_validity: accepted
+validity_notes:
+  - firecrawl_and_exa_unavailable_builtin_web_used_as_documented_substitute
+  - jurisdiction_specific_legal_clearance_out_of_scope
+  - suite_author_and_runner_shared_context_reference_assertion_exposure_disclosed
+  - run_accepted_by_phil_on_2026-11-18
+
+human_gate_score:
+  claim_traceability:
+    score: 2
+    note: Consequential product boundaries are tied to specific ABA rules, comments, Formal Opinion 512, jurisdiction charts, and the cited Supreme Court opinion, with each source's role identified.
+  entailment_accuracy:
+    score: 2
+    note: The analysis preserves the model rules' nonbinding status, avoids jurisdiction-specific clearance, and limits the government-edicts discussion to the precise source and material at issue.
+  contradiction_handling:
+    score: 2
+    note: It operationalizes the tensions between public availability and reuse rights, model guidance and locally adopted rules, and useful research assistance versus impermissible substitution for legal judgment.
+  coverage_honesty:
+    score: 2
+    note: The U.S. assumption, unresolved local law, source contracts, product architecture, marketing claims, and low confidence in any jurisdiction-specific permissibility are explicit.
+  decision_usefulness:
+    score: 2
+    note: It gives a bounded launch recommendation, safer behaviors, blocking failure states, required evidence, prohibited claims, and concrete escalation conditions.
+  reproducibility:
+    score: 2
+    note: The exact prompt, scope assumptions, three retrieval rounds, complete source registry, tool substitution, output, and validity disclosures are preserved.
+  efficiency:
+    score: 2
+    note: The sixteen-minute review stayed within limits and concentrated retrieval on professional duties, AI supervision, source rights, and unresolved launch risks.
+  data_boundary_compliance:
+    score: 2
+    note: The run used permitted primary and official sources, no private client or product data, and explicitly reported jurisdictional, retrieval, and contamination boundaries.
+  weighted_total: 24
+  maximum_weighted_total: 24
+
+automatic_failures: []
+broken_task: false
+environment_exception_requires_review: true
+environment_exception_decision: accepted_by_phil_on_2026-11-18
+elapsed_minutes: 16
+review_minutes: null
+reviewed_at: 2026-11-18
+reviewer_decision: accept

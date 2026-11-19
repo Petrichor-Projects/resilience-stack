@@ -1,0 +1,110 @@
+manifest_id: edci-g0-baseline-2026-09-23
+suite_id: edci-evidence-baseline-v1
+system_under_test:
+  primary_skill: deep-research
+  primary_sha256: 2d631427fc9aba27a318735f930bdb49f5c6ce416506340025eac01648f1df09
+  companion_skill: research-loop
+  companion_sha256: b1b60b2ede4ace684000f6288f5e41d23ded411a295011eb00875b65ba07c0f6
+status: accepted_for_g1
+started_on: 2026-09-23
+completed_on: 2026-11-19
+output_generation_completed_on: 2026-09-23
+
+budget:
+  external_spend_cap_usd: 0
+  wall_clock_minutes_per_trial: 90
+  reviewer_minutes_per_case: 30
+  total_reviewer_minutes: 150
+
+environment:
+  worktree: /Users/philipprimmler/Downloads/Projects/resilience-stack-edci
+  branch: feature/edci-evidence-baseline
+  base_revision: 0ab4479
+  network_policy: public_web_only_for_cases_that_allow_web
+  private_data_policy: prohibited
+
+trials:
+  - trial_id: G0-DR-B01-BASELINE-01
+    case_id: DR-B01
+    state: accepted
+    output_path: artifacts/G0-DR-B01-BASELINE-01/output.md
+    transcript_path: artifacts/G0-DR-B01-BASELINE-01/transcript.md
+    scorecard_path: artifacts/G0-DR-B01-BASELINE-01/scorecard.yaml
+  - trial_id: G0-DR-B02-BASELINE-01
+    case_id: DR-B02
+    state: accepted
+    output_path: artifacts/G0-DR-B02-BASELINE-01/output.md
+    transcript_path: artifacts/G0-DR-B02-BASELINE-01/transcript.md
+    scorecard_path: artifacts/G0-DR-B02-BASELINE-01/scorecard.yaml
+  - trial_id: G0-DR-B03-BASELINE-01
+    case_id: DR-B03
+    state: accepted
+    output_path: artifacts/G0-DR-B03-BASELINE-01/output.md
+    transcript_path: artifacts/G0-DR-B03-BASELINE-01/transcript.md
+    scorecard_path: artifacts/G0-DR-B03-BASELINE-01/scorecard.yaml
+  - trial_id: G0-DR-B04-BASELINE-01
+    case_id: DR-B04
+    state: accepted
+    output_path: artifacts/G0-DR-B04-BASELINE-01/output.md
+    transcript_path: artifacts/G0-DR-B04-BASELINE-01/transcript.md
+    scorecard_path: artifacts/G0-DR-B04-BASELINE-01/scorecard.yaml
+  - trial_id: G0-DR-B05-BASELINE-01
+    case_id: DR-B05
+    state: accepted
+    output_path: artifacts/G0-DR-B05-BASELINE-01/output.md
+    transcript_path: artifacts/G0-DR-B05-BASELINE-01/transcript.md
+    scorecard_path: artifacts/G0-DR-B05-BASELINE-01/scorecard.yaml
+
+completion_checks:
+  outputs_saved_count: 5
+  outputs_required_count: 5
+  all_outputs_saved: true
+  all_transcripts_saved: true
+  all_scorecards_complete: true
+  reconciliation_complete: true
+  broken_tasks_resolved: true
+  valid_trials_count: 5
+  accepted_scorecards_count: 5
+  unresolved_automatic_failures: 0
+
+human_scoring_results:
+  completed_on: 2026-11-19
+  weighted_total: 118
+  maximum_weighted_total: 120
+  trials:
+    G0-DR-B01-BASELINE-01: 22
+    G0-DR-B02-BASELINE-01: 24
+    G0-DR-B03-BASELINE-01: 24
+    G0-DR-B04-BASELINE-01: 24
+    G0-DR-B05-BASELINE-01: 24
+
+g0_gate_decision:
+  decision: approved_with_numeric_scoring_exception
+  decision_owner: philip-primmler
+  decided_on: 2026-09-23
+  authority: explicit_user_instruction_approve_g0
+  permits:
+    - clean_room_project_local_schema_implementation
+    - deterministic_validator_implementation
+    - local_test_and_harness_implementation
+  does_not_permit:
+    - aggregate_baseline_performance_claims
+    - baseline_candidate_comparison_before_human_scoring
+    - g1_promotion_before_human_scoring
+    - jurisdiction_specific_legal_clearance
+    - global_skill_installation
+    - paid_external_services
+    - production_routing_or_deployment
+  outstanding_obligation:
+    human_scorecards_complete: true
+    required_count: 5
+    completed_count: 5
+    due_before: candidate_comparison
+
+execution_deviations:
+  - description: DR-B04 was packaged before DR-B03 even though the declared order placed DR-B03 first.
+    impact: No candidate code existed and the two cases use independent inputs; preserve the deviation for reviewer acceptance.
+  - description: Firecrawl and Exa were unavailable for open-web cases; built-in web retrieval and direct public APIs were substituted.
+    impact: Human review must accept the functional substitution or require isolated reruns.
+  - description: The suite author and trial runner shared one conversation context.
+    impact: Reference-assertion exposure is possible; human review decides whether the runs are retained or rerun in fresh isolated contexts.
