@@ -1,0 +1,48 @@
+trial_id: G0-DR-B01-BASELINE-01
+case_id: DR-B01
+state: accepted
+generated_on: 2026-09-23
+reviewer: philip-primmler
+human_review_complete: true
+trial_validity: accepted
+validity_notes:
+  - firecrawl_and_exa_unavailable_builtin_web_used_as_documented_substitute
+  - suite_author_and_runner_shared_context_reference_assertion_exposure_disclosed
+  - no_candidate_code_existed_during_run
+
+human_gate_score:
+  claim_traceability:
+    score: 1
+    note: Verified facts are well sourced, but some consequential legal and risk inferences lack their own precise source pointers.
+  entailment_accuracy:
+    score: 2
+    note: The claims preserve the meaning, scope, and qualifications of the cited evidence, including the distinction between verified repository facts and legal-risk inferences.
+  contradiction_handling:
+    score: 2
+    note: The README's MIT statement and the missing license instrument are explicitly reconciled into a conservative decision condition and follow-up actions.
+  coverage_honesty:
+    score: 2
+    note: The output states its repository-state coverage, unresolved provenance and jurisdiction questions, retrieval substitution, and confidence limits.
+  decision_usefulness:
+    score: 2
+    note: It gives a clear no-copy default, rationale, clean-room alternative, escalation conditions, and concrete next steps.
+  reproducibility:
+    score: 2
+    note: The exact prompt, pinned commit, skill hashes, retrieval rounds, source registry, method, deviations, and saved artifacts support replay.
+  efficiency:
+    score: 2
+    note: The 18-minute, three-round review stayed within limits and focused retrieval on the licensing uncertainty that controlled the decision.
+  data_boundary_compliance:
+    score: 2
+    note: The review used only permitted public sources, copied no upstream material, and explicitly disclosed tool substitutions and contamination risk.
+  weighted_total: 22
+  maximum_weighted_total: 24
+
+automatic_failures: []
+broken_task: false
+environment_exception_requires_review: true
+environment_exception_decision: accepted_by_phil_on_2026-09-23
+elapsed_minutes: 18
+review_minutes: null
+reviewed_at: 2026-11-18
+reviewer_decision: accept

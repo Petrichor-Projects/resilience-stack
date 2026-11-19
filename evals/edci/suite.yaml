@@ -1,0 +1,65 @@
+suite_id: edci-evidence-baseline-v1
+program: evidence-decision-content-intelligence
+project: evidence-backed-deep-research-upgrade
+phase: g0
+status: certified_for_baseline
+created_on: 2026-09-23
+owner: philip-primmler
+implementation_mode: clean-room
+
+frozen_baselines:
+  - skill: deep-research
+    path: /Users/philipprimmler/.codex/skills/deep-research/SKILL.md
+    sha256: 2d631427fc9aba27a318735f930bdb49f5c6ce416506340025eac01648f1df09
+  - skill: research-loop
+    path: /Users/philipprimmler/.codex/skills/research-loop/SKILL.md
+    sha256: b1b60b2ede4ace684000f6288f5e41d23ded411a295011eb00875b65ba07c0f6
+
+upstream_reference:
+  repository: https://github.com/199-biotechnologies/claude-deep-research-skill
+  commit: f2f2c0fa4e7617ca84c86b63f4bb40f77a746933
+  license_api_value: null
+  license_file_present: false
+  permitted_use: behavioral_comparison_only
+
+governance:
+  decision_owner: philip-primmler
+  independent_human_reviewer: philip-primmler
+  reviewer_independence_rule: reviewer must not see candidate identity or aggregate score before completing case-level scoring
+  external_spend_cap_usd: 0
+  human_review_minutes_per_case: 30
+  human_review_minutes_total: 150
+  wall_clock_minutes_per_trial: 90
+  trial_count_per_system_per_case: 1
+  rerun_policy: rerun only for a documented broken task, provider outage, or corrupted artifact
+
+execution_order:
+  - DR-B01
+  - DR-B02
+  - DR-B03
+  - DR-B04
+  - DR-B05
+
+release_gates:
+  baseline_complete:
+    requires:
+      - five_saved_outputs
+      - five_completed_scorecards
+      - reviewer_reconciliation_record
+      - zero_unresolved_broken_tasks
+  candidate_advances:
+    requires:
+      - zero_automatic_failures
+      - no_case_score_regression_greater_than: 2
+      - mean_weighted_score_improvement_at_least: 1.0
+      - claim_traceability_mean_at_least: 1.5
+      - entailment_accuracy_mean_at_least: 1.5
+      - data_boundary_compliance_mean: 2.0
+
+artifact_retention:
+  save_prompt: true
+  save_output: true
+  save_citation_snapshot: true
+  save_tool_transcript: true
+  save_scorecard: true
+  save_reconciliation: true

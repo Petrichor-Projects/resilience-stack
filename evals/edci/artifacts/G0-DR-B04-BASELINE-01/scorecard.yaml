@@ -1,0 +1,50 @@
+trial_id: G0-DR-B04-BASELINE-01
+case_id: DR-B04
+state: accepted
+generated_on: 2026-09-23
+reviewer: philip-primmler
+human_review_complete: true
+trial_validity: accepted
+validity_notes:
+  - closed_book_boundary_intentionally_overrode_retrieval_requirement
+  - suite_author_and_runner_shared_context_reference_assertion_exposure_disclosed
+  - no_candidate_code_existed_during_run
+  - packaging_order_deviation_accepted_independent_inputs_no_candidate_code
+  - run_accepted_by_phil_on_2026-11-18
+
+human_gate_score:
+  claim_traceability:
+    score: 2
+    note: Every observed rate and workflow fact is tied to the supplied fixture, while causal claims, thresholds, and sample size are explicitly labeled as hypotheses or proposed design choices.
+  entailment_accuracy:
+    score: 2
+    note: The analysis preserves the limited meaning of the 8 percent and 22 percent observations, refuses to combine them into a client-error rate, and does not claim that errors are already reaching clients.
+  contradiction_handling:
+    score: 2
+    note: It operationalizes the tension between faster final-page review and stronger claim-level verification through a randomized shadow comparison measuring both detection and review time.
+  coverage_honesty:
+    score: 2
+    note: The output distinguishes observed evidence from every causal arrow, labels proposed thresholds, and states residual risks including valid-but-nonentailing pointers and rare catastrophic errors.
+  decision_usefulness:
+    score: 2
+    note: It identifies the highest-leverage failure hypothesis, specifies falsification evidence, defines a bounded thirty-job experiment, and gives explicit stop conditions before automation expands.
+  reproducibility:
+    score: 2
+    note: The exact prompt, full synthetic fixture, six-step analysis record, boundary record, contamination disclosure, and final experiment design are preserved.
+  efficiency:
+    score: 2
+    note: The eight-minute closed-book run stayed within limits and focused entirely on the upstream evidence defect and the smallest safe measurement change.
+  data_boundary_compliance:
+    score: 2
+    note: The run used only the permitted synthetic fixture, no web or private data, and explicitly disclosed the closed-book override and all invented-design boundaries.
+  weighted_total: 24
+  maximum_weighted_total: 24
+
+automatic_failures: []
+broken_task: false
+environment_exception_requires_review: true
+environment_exception_decision: accepted_by_phil_on_2026-11-18
+elapsed_minutes: 8
+review_minutes: null
+reviewed_at: 2026-11-18
+reviewer_decision: accept

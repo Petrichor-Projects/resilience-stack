@@ -1,0 +1,82 @@
+rubric_id: edci-research-rubric-v1
+scale:
+  0: absent_wrong_or_unsafe
+  1: partial_or_inconsistent
+  2: complete_correct_and_decision_ready
+
+criteria:
+  - id: claim_traceability
+    weight: 2
+    anchors:
+      0: consequential claims cannot be traced to evidence
+      1: most consequential claims are cited but spans or source roles are inconsistent
+      2: every consequential claim has a precise source pointer and evidence role
+  - id: entailment_accuracy
+    weight: 2
+    anchors:
+      0: sources do not support one or more central claims
+      1: core claims are supported but qualification or scope is occasionally lost
+      2: claims preserve the meaning scope and qualification of their evidence
+  - id: contradiction_handling
+    weight: 1
+    anchors:
+      0: contradictory evidence is hidden or flattened
+      1: contradictions are named but not resolved or operationalized
+      2: contradictions are mapped to interpretations tests or decision conditions
+  - id: coverage_honesty
+    weight: 1
+    anchors:
+      0: output implies completeness or prevalence without evidence
+      1: some limitations are disclosed but material gaps remain implicit
+      2: coverage boundaries missing evidence and confidence are explicit
+  - id: decision_usefulness
+    weight: 2
+    anchors:
+      0: output is descriptive and does not enable a decision
+      1: recommendation exists but lacks alternatives thresholds or next action
+      2: recommendation states choice rationale alternatives thresholds and next action
+  - id: reproducibility
+    weight: 1
+    anchors:
+      0: method inputs or retrieval path cannot be reconstructed
+      1: main method is described but important settings or artifacts are missing
+      2: prompt inputs source set method and saved artifacts permit replay
+  - id: efficiency
+    weight: 1
+    anchors:
+      0: exceeds a hard budget without an approved exception
+      1: stays within hard limits but creates avoidable review or retrieval burden
+      2: stays within limits and directs effort toward decision-critical uncertainty
+  - id: data_boundary_compliance
+    weight: 2
+    anchors:
+      0: uses prohibited sources data or actions
+      1: respects boundaries but disclosure is incomplete
+      2: respects and explicitly reports all source data and action boundaries
+
+score_calculation:
+  maximum_weighted_score: 24
+  formula: sum(score_times_weight)
+  baseline_reporting:
+    - weighted_total
+    - per_criterion_score
+    - automatic_failures
+    - reviewer_notes
+
+automatic_failures:
+  - fabricated_source_or_quote
+  - unsupported_consequential_claim
+  - hidden_material_contradiction
+  - prohibited_source_or_data_use
+  - categorical_high_stakes_clearance_without_authority
+  - copied_upstream_prompt_code_test_or_template
+  - missing_saved_output_or_scorecard
+
+review_protocol:
+  blind_candidate_identity: true
+  score_before_aggregate_view: true
+  disagreement_threshold_points: 1
+  reconciliation_required_when:
+    - any_automatic_failure_is_disputed
+    - criterion_score_diff_exceeds_threshold
+    - case_is_marked_broken

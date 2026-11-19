@@ -1,0 +1,49 @@
+trial_id: G0-DR-B02-BASELINE-01
+case_id: DR-B02
+state: accepted
+generated_on: 2026-09-23
+reviewer: philip-primmler
+human_review_complete: true
+trial_validity: accepted
+validity_notes:
+  - closed_book_boundary_intentionally_overrode_retrieval_requirement
+  - suite_author_and_runner_shared_context_reference_assertion_exposure_disclosed
+  - no_candidate_code_existed_during_run
+  - closed_book_run_accepted_by_phil_on_2026-11-18
+
+human_gate_score:
+  claim_traceability:
+    score: 2
+    note: Every ranked pattern and contradictory signal is tied to specific supplied interview IDs, and proposed language is clearly labeled rather than presented as a quotation.
+  entailment_accuracy:
+    score: 2
+    note: The synthesis preserves the supplied statements' scope, avoids inferring market prevalence, and distinguishes repeated patterns from the single-observation positioning hypothesis.
+  contradiction_handling:
+    score: 2
+    note: The apparent conflict between I-02 rejecting another dashboard and I-05 valuing a dashboard with a weekly ritual is explicitly reconciled into a narrower, defensible interpretation.
+  coverage_honesty:
+    score: 2
+    note: The output clearly states that the five interviews are synthetic, heterogeneous, insufficient for prevalence or willingness-to-pay claims, and inconclusive on delivery format.
+  decision_usefulness:
+    score: 2
+    note: It recommends a specific lead promise to test, identifies decisions that should not yet be made, and supplies a bounded interview plan with an explicit advancement threshold.
+  reproducibility:
+    score: 2
+    note: The exact prompt, complete fixture, coding method, retrieval boundary, contamination disclosure, and resulting output are preserved in the trial artifacts.
+  efficiency:
+    score: 2
+    note: The seven-minute run stayed focused on the supplied packet and produced a concise decision, evidence limits, and smallest useful validation step.
+  data_boundary_compliance:
+    score: 2
+    note: The run used only I-01 through I-05, with no web, vault, private, or unstated customer evidence, and disclosed the closed-book override and shared-context exposure.
+  weighted_total: 24
+  maximum_weighted_total: 24
+
+automatic_failures: []
+broken_task: false
+environment_exception_requires_review: true
+environment_exception_decision: accepted_by_phil_on_2026-11-18
+elapsed_minutes: 7
+review_minutes: null
+reviewed_at: 2026-11-18
+reviewer_decision: accept
